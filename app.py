@@ -7,6 +7,9 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+import os
+
+os.system("apt-get update && apt-get install -y libnss3 libx11-6")
 
 # 크롤링 함수 정의
 def crawl_wanted(years_min, years_max, selected_jobs):
