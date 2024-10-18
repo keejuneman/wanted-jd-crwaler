@@ -1,3 +1,6 @@
 streamlit
 pandas
 selenium
+chromedriver-autoinstaller
+libnss3
+libx11-6
